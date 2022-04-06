@@ -10,7 +10,7 @@ public class BookRepository implements IBookRepository  {
 
     private List<Book> books;
 
-    BookRepository() {
+    public BookRepository() {
         ArrayList<Book> books = new ArrayList<>();
         books.add(new Book("LOTR", "J.R.R. Tolkien"));
         books.add(new Book("A Gentleman in Moscow", "Amor Towles"));
